@@ -14,7 +14,7 @@ import './util/i18n';
 import { FullScreenSuspense } from './util/suspense';
 
 initSentry();
-initCrisp();
+// initCrisp(); TODO: Chat disabled
 
 ReactDOM.render(
   <StoreProvider store={store}>

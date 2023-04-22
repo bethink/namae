@@ -73,6 +73,8 @@ function Stat() {
     }
   })(uniqueness);
 
+  return <></>;
+
   return (
     <UniquenessIndicator>
       <Tooltip
