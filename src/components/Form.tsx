@@ -57,9 +57,10 @@ const Form: React.FC<{
   return (
     <InputContainer>
       <InputHeader>
-        <Logo to="/">
-          <LogoImage src="/logo.svg" />
-        </Logo>
+        {/* <Logo to="/"> */}
+        {/* <LogoImage src="/logo.svg" /> */}
+        <h2>Domain Suggestions</h2>
+        {/* </Logo> */}
       </InputHeader>
       <form onSubmit={onSubmitQuery} action="/s" role="search">
         <InputView

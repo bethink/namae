@@ -164,7 +164,7 @@ const FONT_FAMILIES = [
 
 const FONT_WEIGHTS = [300, 600, 900];
 
-const NUM_SUGGESTION = 3;
+const NUM_SUGGESTION = 13;
 
 function modifyWord(word: string): string {
   return sample(MODIFIERS)(word);
@@ -309,11 +309,13 @@ const Title = styled.div`
 `;
 
 const Items = styled.div`
-  margin: 5px 0;
+  margin: 55px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 60px 120px;
+  width: 70%;
 
   ${mobile} {
     flex-direction: column;

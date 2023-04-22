@@ -27,7 +27,7 @@ export default function Search() {
   return (
     <>
       <Helmet>
-        <title>Search for &quot;{currentQuery}&quot; — namae</title>
+        <title>Search for &quot;{currentQuery}&quot; — name</title>
       </Helmet>
       <Header>
         <Form initialValue={currentQuery} />
@@ -35,7 +35,7 @@ export default function Search() {
       <Content>
         <Legend>
           <Stat />
-          <ResultItem color={ResultColor.available}>
+          {/* <ResultItem color={ResultColor.available}>
             <ResultIcon>
               <IoIosRocket />
             </ResultIcon>
@@ -49,7 +49,7 @@ export default function Search() {
               <IoIosRocket />
             </ResultIcon>
             <ResultName>{t('unavailable')}</ResultName>
-          </ResultItem>
+          </ResultItem> */}
         </Legend>
         <Cards query={currentQuery} />
       </Content>

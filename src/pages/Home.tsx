@@ -11,16 +11,14 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>namae — {t('title')}</title>
+        <title>Name Search — {t('title')}</title>
       </Helmet>
 
       <Header>
         <Form useSuggestion={false} />
       </Header>
 
-      <Content>
-        <Welcome />
-      </Content>
+      <Content>{/* <Welcome /> */}</Content>
     </>
   );
 }

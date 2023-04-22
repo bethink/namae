@@ -39,6 +39,8 @@ import YouTubeCard from './providers/YouTube';
 const Index: React.FC<{ query: string }> = ({ query }) => {
   const { t } = useTranslation();
 
+  return <div></div>;
+
   return (
     <>
       <Section>
